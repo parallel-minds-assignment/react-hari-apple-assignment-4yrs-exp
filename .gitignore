@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
++ .vite
++ coverage
++ jest-cache
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Husky
++ .husky/_
+
+# Env Files
++ .env
+
+# Typescript Build Info
++ *.tsbuildinfo
+
+# Ignore all JS and JS map files in all directories
+**/*.js
+**/*.js.map
