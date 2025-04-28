@@ -66,6 +66,10 @@ export const SearchInput: React.FC = () => {
 
     return (
         <div className="search-container">
+            <div className="search-sticky">
+                <h1 className='apple-gradient-text'>
+                    <img src="/movie-media.svg" alt="Movie" className="icon-inline" /> Instant Movie Search
+                </h1>
                 <div className="search-bar-wrapper">
                     <input
                         type="text"
@@ -74,6 +78,7 @@ export const SearchInput: React.FC = () => {
                         onChange={handleChange}
                         className="search-input"
                     />
+                </div>
             </div>
 
             <div className="grid-results">

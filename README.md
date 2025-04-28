@@ -35,7 +35,7 @@ A sleek and responsive movie search app powered by the [OMDB API](https://www.om
 
 ### 1. Clone the repo
 ``` bash
-git clone https://github.com/your-username/instant-movie-search.git
+git clone https://github.com/parallel-minds-assignment/react-hari-patnam.git
 cd instant-movie-search
 ``` 
 

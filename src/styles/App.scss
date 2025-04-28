@@ -20,7 +20,7 @@
 
 /* serch input css */
 .search-container {
-  margin: 2rem auto;
+  margin: 0 auto 2rem;
   padding: 0 1rem;
   text-align: center;
 }
@@ -28,7 +28,6 @@
 .search-bar-wrapper {
   display: flex;
   justify-content: center;
-  margin-bottom: 2rem;
 }
 
 .search-input {
@@ -207,4 +206,17 @@
   font-size: 14px;
   color: gray;
   padding: 10px;
+}
+
+.icon-inline {
+  height: 1em;
+  width: 1em;
+  margin-right: 0.3em;
+}
+.search-sticky{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #f9f9f9;
+  padding: 1rem 0;
 }
